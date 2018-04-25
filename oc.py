@@ -75,7 +75,7 @@ def change_freq(ips, username, password, low_temp, high_temp, term):
 					if int(info['temp_max']) > int(i):
 						info['ant_data']['bitmain-freq'] = i
 						set_miner(ip, auth, info)
-		time.sleep(term)
+		    time.sleep(term)
 
 def main():
 	ips = ['192.168.1.101']
