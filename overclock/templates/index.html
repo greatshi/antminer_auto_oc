@@ -1,0 +1,292 @@
+﻿{% load  staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>蚂蚁矿机自动超频</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet" />
+		<link rel="stylesheet" href="{% static "css/font-awesome.min.css" %}" />
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
+		<link rel="stylesheet" href="{% static "css/ace.min.css" %}" />
+		<link rel="stylesheet" href="{% static "css/ace-rtl.min.css" %}" />
+		<link rel="stylesheet" href="{% static "css/ace-skins.min.css" %}" />
+		<script src="{% static "js/ace-extra.min.js" %}"></script>
+		<script src="{% static "js/jquery-3.1.1.min.js" %}" ></script>
+		<script type="text/javascript">
+
+		$(function() {
+			 $("#miner_info").submit(function(){
+			 var miner_info = $("#miner_info_txt").val();
+				$.ajax({
+					 type:"post",
+					 dataType:"json",
+					 url:"/data/",
+					 data: {'method': 'miner_info', 'miner_info':miner_info},
+				success: function(data){
+					$('#miner_info')[0].reset();
+					var typeData = data;
+					$.each(typeData, function(i, n) {
+						alert('upload success');
+						var row = n.msg;
+						document.getElementById("ajax_test").innerHTML = "刚才输入的是: "+row;
+				  });
+				},
+				});
+					return false;
+				});
+		 });
+
+		 $(function() {
+ 			 $("#temp_set").submit(function(){
+ 			 var temp_set = $("#temp_set_txt").val();
+ 				$.ajax({
+ 					 type:"post",
+ 					 dataType:"json",
+ 					 url:"/data/",
+ 					 data: {'method': 'temp_set', 'temp_set':temp_set},
+ 				success: function(data){
+ 					var typeData = data;
+					$('#temp_set')[0].reset();
+ 					$.each(typeData, function(i, n) {
+ 						alert('upload success');
+ 						var row = n.msg;
+ 						document.getElementById("ajax_test").innerHTML = "刚才输入的是: "+row;
+ 				  });
+ 				},
+ 				});
+ 					return false;
+ 				});
+ 		 });
+
+		 function timeDown(limit, i) {
+			 limit--;
+			 if (i > 6) {
+				 i = 0;
+       }
+       if (limit < 0) {
+				 limit = 5;
+				 miner_status();
+				 i++;
+       }
+       $('#time').text(limit + '秒后刷新');
+			 setTimeout(function() {
+         timeDown(limit, i);
+       }, 1000)
+      }
+
+
+			$(document).ready(function() {
+				miner_status()
+				timeDown(5, 0)
+      })
+
+			function ip_search() {
+				var ip_search_txt = $('#ip_search_input').val();
+				$.ajax({
+					type: "post",
+					dataType: "json",
+					url: "/data/",
+					data: {'method': 'ip_search', 'ip': ip_search_txt},
+					success: function(miner_status) {
+							var typeData = miner_status;
+							$("#miner_table").empty();
+							$.each(typeData, function(i, n) {
+									var tbBody = ""
+									var trColor;
+									if (i % 2 == 0) {
+											trColor = "even";
+									}
+									else {
+											trColor = "odd";
+									}
+									tbBody += "<tr class='" + trColor + "'>" +
+										"<td>" + n.ip + "</td>" +
+										"<td>" + n.freq + "</td>" +
+										"<td>" + n.temp1 + "</td>" +
+										"<td>" + n.temp1 + "</td>" +
+										"<td>" + n.temp1 + "</td>" +
+										"<td>" + n.temp1 + "</td>" +
+									"</tr>";
+									$("#miner_table").append(tbBody);
+							});
+					},
+					error: function(miner_status) {
+						$("#miner_table").empty();
+						$("#miner_table").append("未搜到");
+					}
+				});
+			}
+
+			function miner_status() {
+				$.ajax({
+					type: "post",
+					dataType: "json",
+					url: "/data/",
+					data: { 'method': 'miner_status' },
+					success: function(miner_status) {
+							var typeData = miner_status;
+							$("#miner_table").empty();
+							$.each(typeData, function(i, n) {
+									var tbBody = ""
+									var trColor;
+									if (i % 2 == 0) {
+											trColor = "even";
+									}
+									else {
+											trColor = "odd";
+									}
+									tbBody += "<tr class='" + trColor + "'>" +
+										"<td>" + n.ip + "</td>" +
+										"<td>" + n.freq + "</td>" +
+										"<td>" + n.temp1 + "</td>" +
+										"<td>" + n.temp1 + "</td>" +
+										"<td>" + n.temp1 + "</td>" +
+										"<td>" + n.temp1 + "</td>" +
+									"</tr>";
+									$("#miner_table").append(tbBody);
+							});
+					},
+					error: function(miner_status) {
+						$("#miner_table").empty();
+						$("#miner_table").append("加载失败");
+					}
+				});
+			}
+		</script>
+
+	</head>
+
+	<body>
+			<div class="main-container-inner">
+				<div class="main-content">
+					<div class="page-content">
+						<div class="row">
+							<div class="pageheader">
+		            <h2><i class="fa fa-tachometer"></i><strong>蚂蚁矿机自动超频</strong>
+		            <!-- <span><strong>block chain & deep learning</strong></span></h2> -->
+		          </div>
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS : 页面内容开始 -->
+
+                  <div class="row">
+										<div class="space-12"></div>
+
+                      <div class="col-sm-7 infobox-container">
+												<div class="widget-box transparent">
+												<div class="widget-header widget-header-flat">
+													<h4 class="lighter">
+														<i class="icon-signal"></i>
+														矿机设置
+													</h4>
+												</div>
+
+												<div class="widget-body">
+													<div class="widget-main no-padding">
+														<div class="dialogs">
+														<div class="itemdiv dialogdiv">
+														<div class="body">
+														<div class="text" >格式: 'ip 用户名 密码'</div>
+														<div class="text" >192.168.1.101 root root</div>
+														<div class="text" >192.168.1.102 root passwd</div>
+	                          <form id="miner_info" method = 'post' enctype="multipart/form-data">
+	                          {% csrf_token %}
+	                              <textarea cols="57" id="miner_info_txt" name="content" rows="10"></textarea>
+	                              <button class="btn btn btn-primary btn-block" type="submit">提交</button>
+	                          </form>
+			                  </div>
+												</div>
+												</div>
+												</div>
+												</div>
+												</div>
+											</div>
+
+
+                  <div class="col-sm-5 infobox-container">
+                      <div class="widget-box transparent">
+												<div class="widget-header widget-header-flat">
+													<h4 class="lighter">
+														<i class="icon-signal"></i>
+														自动超频
+													</h4>
+												</div>
+
+	                      <div class="widget-body">
+	                      <div class="widget-main no-padding">
+	                      <div class="dialogs">
+	                      <div class="itemdiv dialogdiv">
+	                      <div class="body">
+													<div class="text" >格式: '低温 高温 更新周期(s)'</div>
+													<div class="text" >69 73 3600</div>
+													<form id="temp_set" method = 'post' enctype="multipart/form-data">
+													{% csrf_token %}
+															<textarea cols="20" id="temp_set_txt" name="content" rows="1"></textarea>
+															<button class="btn btn btn-primary btn-block" type="submit">提交</button>
+													</form>
+
+		                      <div class="text" id="ajax_test">显示AJAX</div>
+	                      </div>
+	                      </div>
+	                      </div>
+	                      </div>
+	                      </div>
+                      </div>
+
+                  </div>
+									</div>
+									<!-- /row -以上是第一行-->
+
+									<div class="hr hr32 hr-dotted"></div>
+									<div class="hr hr32 hr-dotted"></div>
+
+									<div class="row">
+										<div class="space-12"></div>
+										<div class="col-sm-12">
+											<div class="widget-box transparent">
+											<div class="widget-header widget-header-flat">
+												<h4 class="lighter">
+													<i class="icon-signal"></i>
+													矿机状态
+												</h4>
+											</div>
+
+										<div class="widget-body">
+											<div class="widget-main no-padding">
+
+											<form role="form" method="post" name="search_form" id="search_form">
+												<input type="search" class="form-control" name="seq_num"
+												placeholder="Enter ip to search" id="ip_search_input" onkeyup="ip_search()"
+												autofocus>
+											</form>
+											<p id="time"></p>
+
+											<table class="table table-bordered table-striped">
+						             <thead class="thin-border-bottom">
+						               <tr>
+						                 <th><i class="icon-caret-right blue"></i>ip</th>
+						                 <th><i class="icon-caret-right blue"></i>freq</th>
+						                 <th><i class="icon-caret-right blue"></i>temp1</th>
+														 <th><i class="icon-caret-right blue"></i>temp2</th>
+						                 <th><i class="icon-caret-right blue"></i>temp3</th>
+						                 <th><i class="icon-caret-right blue"></i>timestamp</th>
+						               </tr>
+						             </thead>
+												 <tbody id="miner_table"></tbody>
+									     </table>
+											 </div>
+										</div>
+										</div>
+									 </div>
+
+                  </div>
+								  </div>
+								<!-- PAGE CONTENT ENDS -->
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+				</div><!-- /.main-content -->
+
+
+</body>
+</html>
