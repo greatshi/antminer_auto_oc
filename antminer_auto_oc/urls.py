@@ -19,6 +19,6 @@ from overclock import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', views.oc),
+    url(r'^$', views.auto_oc),
     url(r'^data/$', views.data),
 ]

@@ -61,11 +61,11 @@
 
 		 function timeDown(limit, i) {
 			 limit--;
-			 if (i > 6) {
+			 if (i > 301) {
 				 i = 0;
        }
        if (limit < 0) {
-				 limit = 5;
+				 limit = 300;
 				 miner_status();
 				 i++;
        }
@@ -78,7 +78,7 @@
 
 			$(document).ready(function() {
 				miner_status()
-				timeDown(5, 0)
+				timeDown(300, 0)
       })
 
 			function ip_search() {
