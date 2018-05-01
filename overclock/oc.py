@@ -66,7 +66,7 @@ def change_freq(miners, low_temp, high_temp, term):
 			info = get_info(ip, auth)
 			freq = info['ant_data']['bitmain-freq']
 			print 'ip: ' + ip + ' temp: ' + info['temp_max'] + ' freq: ' + freq
-			if int(info['temp_max']) < int(low_temp):
+			if int(info['temp_max']) < int(low_temp) and int(freq) < 800:
 				for i in info['clock_set']:
 					if int(freq) < int(i):
 						info['ant_data']['bitmain-freq'] = i
