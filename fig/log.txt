@@ -1,0 +1,299 @@
+[05/May/2018 03:02:43] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 03:07:45] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 787
+[05/May/2018 03:12:48] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 03:17:51] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 72 freq: 787
+change result: ok
+
+[05/May/2018 03:22:53] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 03:27:56] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 793
+[05/May/2018 03:32:59] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 03:38:01] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 793
+[05/May/2018 03:43:04] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 03:48:07] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 793
+[05/May/2018 03:53:09] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 03:58:12] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 793
+[05/May/2018 04:03:14] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 04:08:17] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 793
+[05/May/2018 04:13:20] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 04:18:23] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 793
+[05/May/2018 04:23:25] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 04:28:28] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 793
+[05/May/2018 04:33:30] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 04:38:33] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 793
+[05/May/2018 04:43:36] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 04:48:39] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 793
+[05/May/2018 04:53:41] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 04:58:44] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 793
+[05/May/2018 05:03:47] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 05:08:49] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 72 freq: 793
+change result: ok
+
+[05/May/2018 05:13:52] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 05:18:55] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 800
+[05/May/2018 05:23:57] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 05:28:59] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 800
+[05/May/2018 05:34:02] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 05:39:03] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 800
+[05/May/2018 05:44:05] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 05:49:16] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 800
+[05/May/2018 05:54:53] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 05:59:55] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 72 freq: 800
+[05/May/2018 06:04:58] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 800
+[05/May/2018 06:12:33] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 06:20:18] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 800
+[05/May/2018 06:28:40] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 800
+[05/May/2018 06:36:00] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 800
+[05/May/2018 06:44:10] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 800
+[05/May/2018 06:52:06] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 07:00:01] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 800
+[05/May/2018 07:07:55] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 800
+[05/May/2018 07:15:31] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 800
+[05/May/2018 07:23:54] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 800
+[05/May/2018 07:32:16] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 07:40:16] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 800
+[05/May/2018 07:48:10] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 800
+[05/May/2018 07:55:41] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 800
+[05/May/2018 08:03:44] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 08:11:28] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 800
+[05/May/2018 08:19:38] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 800
+[05/May/2018 08:28:11] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 800
+[05/May/2018 08:35:50] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 800
+[05/May/2018 08:43:01] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 08:51:04] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 800
+[05/May/2018 08:59:08] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 800
+[05/May/2018 09:07:15] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 800
+[05/May/2018 09:15:54] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 800
+[05/May/2018 09:23:25] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 09:31:36] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 76 freq: 800
+change result: ok
+
+[05/May/2018 09:39:16] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 76 freq: 793
+change result: ok
+
+[05/May/2018 09:47:22] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 787
+[05/May/2018 09:55:39] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 10:03:30] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 787
+[05/May/2018 10:10:54] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 787
+[05/May/2018 10:18:49] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 787
+[05/May/2018 10:26:20] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 787
+[05/May/2018 10:34:18] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 10:42:30] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 787
+[05/May/2018 10:50:30] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 76 freq: 787
+change result: ok
+
+[05/May/2018 10:58:34] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 781
+[05/May/2018 11:06:47] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 781
+[05/May/2018 11:14:32] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 11:22:45] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 77 freq: 781
+change result: ok
+
+[05/May/2018 11:31:10] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 76 freq: 775
+change result: ok
+
+[05/May/2018 11:39:19] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 76 freq: 768
+change result: ok
+
+[05/May/2018 11:47:04] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 76 freq: 762
+change result: ok
+
+[05/May/2018 11:55:28] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 12:03:43] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 756
+[05/May/2018 12:11:59] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 76 freq: 756
+change result: ok
+
+[05/May/2018 12:20:04] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 76 freq: 750
+change result: ok
+
+[05/May/2018 12:28:20] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 76 freq: 743
+change result: ok
+
+[05/May/2018 12:37:10] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 12:44:44] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 737
+[05/May/2018 12:51:53] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 737
+[05/May/2018 12:58:48] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 737
+[05/May/2018 13:06:45] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 13:14:38] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 76 freq: 737
+change result: ok
+
+[05/May/2018 13:22:17] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 731
+[05/May/2018 13:30:33] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 731
+[05/May/2018 13:38:14] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 13:46:22] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 731
+[05/May/2018 13:53:59] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 76 freq: 731
+change result: ok
+
+[05/May/2018 14:02:00] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 725
+[05/May/2018 14:09:46] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 725
+[05/May/2018 14:17:35] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 14:25:43] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 725
+[05/May/2018 14:33:50] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 725
+[05/May/2018 14:41:30] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 76 freq: 725
+change result: ok
+
+[05/May/2018 14:49:34] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 718
+[05/May/2018 14:58:14] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 15:06:11] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 718
+[05/May/2018 15:14:01] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 718
+[05/May/2018 15:21:58] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 718
+[05/May/2018 15:29:41] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 718
+[05/May/2018 15:37:50] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 15:45:35] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 718
+[05/May/2018 15:53:16] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 718
+[05/May/2018 16:01:14] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 718
+[05/May/2018 16:09:22] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 16:17:36] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 718
+[05/May/2018 16:25:50] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 718
+[05/May/2018 16:34:06] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 718
+[05/May/2018 16:42:14] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 718
+[05/May/2018 16:49:56] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 16:57:47] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 718
+[05/May/2018 17:06:16] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 718
+[05/May/2018 17:14:31] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 718
+[05/May/2018 17:22:43] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 718
+[05/May/2018 17:31:05] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 718
+[05/May/2018 17:39:33] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 17:47:22] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 718
+[05/May/2018 17:55:07] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 718
+[05/May/2018 18:01:19] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 718
+[05/May/2018 18:09:02] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 18:16:48] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 718
+[05/May/2018 18:24:23] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 75 freq: 718
+[05/May/2018 18:32:02] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 74 freq: 718
+[05/May/2018 18:39:46] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 18:46:57] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 718
+[05/May/2018 18:51:58] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 18:57:00] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 718
+[05/May/2018 19:02:03] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 19:07:06] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 718
+[05/May/2018 19:12:08] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 19:17:11] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 718
+[05/May/2018 19:22:14] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 19:27:17] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 718
+[05/May/2018 19:32:19] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 19:37:23] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 718
+[05/May/2018 19:42:25] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 19:47:28] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 718
+[05/May/2018 19:52:31] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 19:57:33] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 718
+[05/May/2018 20:02:36] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 20:07:38] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 718
+[05/May/2018 20:12:41] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 20:17:44] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 718
+[05/May/2018 20:22:46] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 20:27:49] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 718
+[05/May/2018 20:32:52] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 20:37:54] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 72 freq: 718
+change result: ok
+
+[05/May/2018 20:42:57] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 20:48:00] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 725
+[05/May/2018 20:53:02] "POST /data/ HTTP/1.1" 200 53
+[05/May/2018 20:58:05] "POST /data/ HTTP/1.1" 200 53
+ip: 192.168.0.4 temp: 73 freq: 725
+[05/May/2018 21:03:08] "POST /data/ HTTP/1.1" 200 53

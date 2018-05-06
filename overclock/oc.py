@@ -73,9 +73,9 @@ def change_freq(miners, low_temp, high_temp, term):
 						set_miner(ip, auth, info)
 						break
 			elif int(info['temp_max']) > int(high_temp):
-				re_clk = info['clock_set'].reverse()
-				for i in re_clk:
-					if int(info['temp_max']) > int(i):
+				info['clock_set'].reverse()
+				for i in info['clock_set']:
+					if int(freq) > int(i):
 						info['ant_data']['bitmain-freq'] = i
 						set_miner(ip, auth, info)
 						break
@@ -84,7 +84,7 @@ def change_freq(miners, low_temp, high_temp, term):
 def main():
 	miners = [
 	          {'ip':'192.168.1.101', 'username':'root', 'password':'root'},
-			  {'ip':'192.168.1.101', 'username':'root', 'password':'root'}
+			  {'ip':'192.168.1.102', 'username':'root', 'password':'root'}
 			 ]
 	# ips = ['192.168.1.101']
 	# username = 'root'
