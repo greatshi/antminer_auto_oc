@@ -6,18 +6,25 @@
 阿瓦隆矿机可以自动超频<br />
 使用Django+BootStrap+AJAX做了一个简单的Web应用程序
 ![Image text](fig/main.png)
+稳定运行了几天[日志](https://github.com/greatshi/antminer_auto_oc/blob/master/fig/log.txt)
 
 使用
 =======
-安装Anaconda2 <br />
+安装[Anaconda2](https://www.anaconda.com/download/) <br />
 之后命令行中运行: <br />
-pip install django==1.9.2 <br />
-python manage.py runserver <br />
+```Bash
+pip install django==1.9.2
+git clone https://github.com/greatshi/antminer_auto_oc.git
+cd antminer_auto_oc
+```
+```Python
+python manage.py runserver
+```
 <br />
 浏览器打开 [http://127.0.0.1:8000/](http://127.0.0.1:8000/) 即可 <br />
 首先提交矿机的ip 用户名 密码<br />
 然后可以看到矿机信息<br />
-然后设置温度，参考如下:<br />
+然后设置温度，设置完成后点一次提交:<br />
 <br />
 使用之前在main()设置如下参数: <br />
 需要自动超频的ip地址<br />
@@ -38,9 +45,11 @@ high_temp = 73
 term = 3600
 ```
 
-之后安装python 2<br />
+之后安装python27<br />
 执行<br />
-$python oc.py<br />
+```Bash
+$python oc.py
+```
 
 Address
 =======
