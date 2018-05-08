@@ -51,5 +51,5 @@ $python oc.py
 
 Address
 =======
-欢迎用[币信钱包](https://web.bixin.im/webapp/)打赏  
+欢迎打赏  
 BTC: 13iESTcV1sg1xL6ZSvhiE9Wf4GyzU5iRqL
