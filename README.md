@@ -18,8 +18,7 @@ git clone https://github.com/greatshi/antminer_auto_oc.git
 cd antminer_auto_oc
 python manage.py runserver
 ```
-<br />
-浏览器打开 [http://127.0.0.1:8000/](http://127.0.0.1:8000/) 即可 <br />
+浏览器打开[http://127.0.0.1:8000/](http://127.0.0.1:8000/) 即可 <br />
 首先提交矿机的ip 用户名 密码<br />
 然后可以看到矿机信息<br />
 然后设置温度，设置完成后点一次提交:<br />
