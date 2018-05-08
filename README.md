@@ -2,7 +2,7 @@
 
 简介
 =======
-大部分蚂蚁BTC矿机需要手动调整频率，而通过网页可以获取到运行温度和当前运行频率，隔一段时间根据矿机温度调整运行频率，可以更安全高效的挖BTC  
+大部分蚂蚁BTC矿机需要手动调整频率，而通过网页可以获取到运行温度和当前运行频率，隔一段时间根据矿机温度调整运行频率，可以更安全高效的挖BTC  
 阿瓦隆矿机可以自动超频  
 使用Django+BootStrap+AJAX做了一个简单的Web应用程序  
 稳定运行了几天的[日志](https://github.com/greatshi/antminer_auto_oc/blob/master/fig/log.txt)  
