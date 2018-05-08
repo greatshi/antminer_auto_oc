@@ -26,8 +26,9 @@ python manage.py runserver
 <br />
 使用之前在main()设置如下参数: <br />
 需要自动超频的ip地址<br />
-```Python
+
 ips = ['192.168.1.101', '192.168.1.101']
+
 矿机的用户名(username)和密码(password)<br />
 低于这个温度增加频率<br />
 ```Python
