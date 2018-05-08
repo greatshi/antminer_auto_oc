@@ -1,12 +1,12 @@
-<h1>蚂蚁矿机自动超频</hi>
+<h1>蚂蚁矿机自动超频</h1>
 
 简介
 =======
 大部分蚂蚁BTC矿机需要手动调整频率，而通过网页可以获取到运行温度和当前运行频率，隔一段时间根据矿机温度调整运行频率可以更安全高效的挖BTC<br />
 阿瓦隆矿机可以自动超频<br />
 使用Django+BootStrap+AJAX做了一个简单的Web应用程序
+稳定运行了几天的[日志](https://github.com/greatshi/antminer_auto_oc/blob/master/fig/log.txt)
 ![Image text](fig/main.png)
-稳定运行了几天[日志](https://github.com/greatshi/antminer_auto_oc/blob/master/fig/log.txt)
 
 使用
 =======
@@ -16,8 +16,6 @@
 pip install django==1.9.2
 git clone https://github.com/greatshi/antminer_auto_oc.git
 cd antminer_auto_oc
-```
-```Python
 python manage.py runserver
 ```
 <br />
